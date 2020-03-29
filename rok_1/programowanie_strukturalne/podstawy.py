@@ -1,2 +1,1 @@
-Herp derp
-dunno lol
+print ("Boi")
