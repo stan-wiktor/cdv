@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     if(argc !=3 || strcmp(argv[1], "--help") == 0)
     {
-        printf("Usage: %s file_origin file_dest", argv[0]);
+        printf("Usage: %s file_origin file_dest\n", argv[0]);
         return 1;
     }
 
