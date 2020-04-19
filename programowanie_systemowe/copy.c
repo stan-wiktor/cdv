@@ -4,8 +4,9 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <unistd.h>
 
-#define BUF_SIZE 1024
+#define BUF_SIZE = 1024
 
 int main(int argc, char *argv[])
 {
